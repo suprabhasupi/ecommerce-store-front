@@ -1,0 +1,127 @@
+.full_body {
+    padding: 0;
+}
+
+.mainheader {
+    border: 1px solid black;
+    margin-left: 0;
+    background-color: black;
+    border-bottom-color: gray;
+}
+
+h1.titl {
+    color: white;
+}
+
+.heder_icons {
+    margin-top: 20px;
+    color: white;
+}
+
+a.serch {
+    position: relative;
+    left: -1em;
+}
+
+
+/*---------------------nav tab--------------------------------*/
+
+.header2 {
+    background-color: black;
+    margin-left: 0;
+}
+
+a.acount {
+    position: relative;
+    top: -.7em;
+    text-decoration: none;
+    color: white;
+}
+
+
+/*-------------------------women-------------------------*/
+
+p.women{
+	color: black;
+	font-size: 2em;
+	letter-spacing: 3px;
+}
+
+/*-------------------------element_box----------------------*/
+
+
+img.img_element{
+	width: 100%;
+	height:100%;
+}
+
+.scnd_img{
+	margin-left: 8%;
+}
+
+.third_img{
+	margin-left: 8%;
+}
+
+p.data_name{
+	color: black;
+	font-size: 1.3em;
+}
+
+
+/*----------------------footer-------------------------------*/
+
+.footer_box{
+	border:1px solid gray;
+	margin-left: 0;
+	background: rgb(51, 49, 49);
+	color: white;
+
+    padding: 24px 0px;
+}
+
+.footer_box1{
+	border:1px solid gray;
+	margin-left: 0;
+	background: rgb(51, 49, 49);
+	color: white;
+
+    padding: 14px 0px;
+}
+
+.social_icon{
+	margin-top: 1em;
+}
+
+i.icn{
+	margin-left: 12px;
+}
+
+input.form-control{
+	outline: none;
+	background-color: #565353;
+	border-color: transparent;
+}
+
+
+a{
+	color: white;
+}
+
+span.input-group-addon{
+	background: #006eff;
+	border-color: #006eff;
+}
+
+i.fa-chevron-right{
+	color: white;
+}
+
+h4.ftr_heading{
+
+}
+
+.filtr_box{
+	border:1px solid black;
+	height: 30em;
+}
