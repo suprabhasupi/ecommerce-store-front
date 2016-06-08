@@ -125,3 +125,35 @@ h4.ftr_heading{
 	border:1px solid black;
 	height: 30em;
 }
+.header2 li {
+    display: inline;
+    margin: 0 8px;
+}
+.header2 ul {
+    margin: 10px 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.menu_details{
+	position: relative;
+	opacity: 0
+
+}
+.menu_active{
+	z-index: 1;
+	opacity: 1;
+
+
+}
+.menu_active .menu1{
+	top:.6em;
+	display: block;
+}
+.menu1{
+	    position: absolute;
+    background-color: blue;
+    height: 60px;
+    display: none;
+    top: -2em;
+}

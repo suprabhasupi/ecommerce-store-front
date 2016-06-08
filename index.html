@@ -7,7 +7,9 @@
     <link rel="stylesheet" type="text/css" href="css/new_css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script src="js/jquery.min.js"></script>
+    <!-- <script src="js/jquery.min.js"></script> -->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
 </head>
 
 <body>
@@ -30,11 +32,39 @@
         <div class="row col-md-12 col-sm-12 col-xs-12 header2">
             <div class="col-md-1"></div>
             <div class="col-md-9">
+                <ul class="main_menu">
+                    <li><a href="#" class="tregular">New Arrival1<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <div class="menu_details row col-md-12 col-sm-12 col-xs-12">
+                            <div class="menu1 col-md-12" style="background:red;"></div>
+                        </div>
+                    </li>
+
+                     <li><a href="#" class="tregular">New Arrival2<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <div class="menu_details row col-md-12 col-sm-12 col-xs-12">
+                            <div class="menu1 col-md-12" style="background:yellow;"></div>
+                        </div>
+                    </li>
+
+                     <li><a href="#" class="tregular">New Arrival3<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <div class="menu_details row col-md-12 col-sm-12 col-xs-12">
+                            <div class="menu1 col-md-12" style="background:pink;"></div>
+                        </div>
+                    </li>
+
+                     <li><a href="#" class="tregular">New Arrival4<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                        <div class="menu_details row col-md-12 col-sm-12 col-xs-12">
+                            <div class="menu1 col-md-12"></div>
+                        </div>
+                    </li>
+                    <!-- <li> <a href="#" class="tregular">Best Sellers</a></li>
+                    <li><a href="#" class="tregular">Man <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
+                    <li> <a href="#" class="tregular">Kids</a></li>
+                    <li><a href="#" class="tregular">Women <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li> -->
+                </ul>
                 <!-- ----nav---- -->
             </div>
             <div class="col-md-1 heder_icons">
-                <a href="#" class="acount tregular
-">Account</a>
+                <a href="#" class="acount tregular">Account</a>
             </div>
             <div class="col-md-1"></div>
         </div>
@@ -106,12 +136,12 @@
                 <p>Sign up for the latest news,offers and styles</p>
                 <div class="input-group">
                     <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
-                  <span class="input-group-addon" id="basic-addon2"><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
+                    <span class="input-group-addon" id="basic-addon2"><a href="#"><i class="fa fa-chevron-right" aria-hidden="true"></i></a></span>
                 </div>
                 <div class="social_icon">
-                <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
-                <a href=""><i class="fa fa-twitter fa-2x icn" aria-hidden="true"></i></a>
-                <a href=""><i class="fa fa-instagram fa-2x icn" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-twitter fa-2x icn" aria-hidden="true"></i></a>
+                    <a href=""><i class="fa fa-instagram fa-2x icn" aria-hidden="true"></i></a>
                 </div>
             </div>
             <div class="col-md-1"></div>
@@ -138,5 +168,33 @@
         <!-- ---------------------end lst_foter------------------------------- -->
     </div>
 </body>
+<script type="text/javascript">
+// function addMega(){
+//   $(this).addClass("menu_active");
+//   }
+//   function removeMega(){
+//   $(this).removeClass("menu_active");
+//   }
+// var megaConfig = {    
+//      interval: 500,
+//      sensitivity: 4,
+//      over: addMega,
+//       timeout: 500,
+//      out: removeMega,
+// };
+// $("ul.main_menu li").find("div.menu_details").hoverIntent(megaConfig);
+$("ul.main_menu li").click(function mega_menu(e) {
+    var current_menu = $(this).text().trim();
+    $.each($("div.menu_details"), function(){
+if (current_menu != $(this).parent().find(".tregular").text()){
+    console.log("current_menu => "+current_menu);
+    console.log("this text => "+$(this).parent().find(".tregular").text());
+        $(this).removeClass("menu_active");}
+    })
+    // $("div.menu_details").removeClass("menu_active");
+    $(this).find("div.menu_details").toggleClass("menu_active");
+    console.log($(this).text());
+});
+</script>
 
 </html>
