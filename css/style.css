@@ -5,7 +5,7 @@
 .mainheader {
     border: 1px solid black;
     margin-left: 0;
-    background-color: black;
+    background-color: rgb(51, 49, 49);
     border-bottom-color: gray;
 }
 
@@ -27,7 +27,7 @@ a.serch {
 /*---------------------nav tab--------------------------------*/
 
 .header2 {
-    background-color: black;
+    background-color: rgb(51, 49, 49);
     margin-left: 0;
 }
 
@@ -67,8 +67,17 @@ p.data_name{
 	color: black;
 	font-size: 1.3em;
 }
-
-
+ .color{
+ 	position: relative;
+ 	top: 2em;
+ }
+.price_range{
+	position: relative;
+	top: 3.5em;
+}
+div#slider-3{
+	margin-top: 1.4em;
+}
 /*----------------------footer-------------------------------*/
 
 .footer_box{
@@ -122,6 +131,85 @@ h4.ftr_heading{
 }
 
 .filtr_box{
-	border:1px solid black;
-	height: 30em;
+	border:1px solid none;
+	height: 50.6em;
+	background: rgb(51, 49, 49);
+	color: white;
+	padding-left: 28px;
 }
+
+.filtr_box_dummy{
+border:1px solid none;
+height: 4em;
+background: rgb(51, 49, 49);
+}
+/*-----------------------chechbox--------------------------*/
+.squaredThree {
+  /*width: 20px;*/
+  position: relative;
+  margin: 15px auto;
+}
+.squaredThree label {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: -webkit-linear-gradient(top, #222222 0%, #45484d 100%);
+  background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+  
+  border-radius: 4px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+}
+.squaredThree label:after {
+  content: '';
+    width: 10px;
+    height: 6px;
+    position: absolute;
+    top: 4px;
+    left: 5px;
+    border: 3px solid #fcfff4;
+    border-top: none;
+    border-right: none;
+    background: transparent;
+    opacity: 0;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+.squaredThree label:hover::after {
+  opacity: 0.3;
+}
+.squaredThree input[type=checkbox] {
+  visibility: hidden;
+}
+.squaredThree input[type=checkbox]:checked + label:after {
+  opacity: 1;
+}
+
+
+span.nam{
+	 position: relative;
+    left: 2em;
+}
+
+span.color_box{
+	width: 12px;
+    height: 12px;
+    display: inline-block;
+    margin-left: 2em;
+    margin-right: 5px;
+    vertical-align: -1px;
+background-color: red;
+}
+
+span.nam_colr{
+	position: relative;
+    left: 3.3em;
+    top: -1.3em;
+}
+
+
+
+/*-------------------------------------------------------*/
+
