@@ -7,8 +7,11 @@
     <link rel="stylesheet" type="text/css" href="css/new_css.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <!-- <script src="js/jquery.min.js"></script> -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+
+    <script src="js/jquery.min.js"></script>
+    <link href="http://code.jquery.com/ui/1.10.4/themes/ui-lightness/jquery-ui.css" rel="stylesheet">
+      <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
 
 </head>
 
@@ -71,8 +74,8 @@
         <!-- ---------------------end nav-tab--------------------- -->
         <!-- ------------------heading------------------------- -->
         <div class="row col-md-12 col-sm-12 col-xs-12">
-            <div class="col-md-1"></div>
-            <div class="col-md-10">
+            <div class="col-md-2 filtr_box_dummy"></div>
+            <div class="col-md-8">
                 <p class="text-center women tregular">WOMEN</p>
             </div>
             <div class="col-md-1"></div>
@@ -82,23 +85,83 @@
         <div class="row col-md-12 col-sm-12 col-xs-12">
             <!-- <div class="col-md-1"></div> -->
             <div class="col-md-2 filtr_box">
-                <!-- <p class="women tregular">WOMEN</p> -->
+                <p class="tbold">BRAND</p>
+                <section title=".squaredThree">
+    <!-- .squaredThree -->
+    <div class="squaredThree">
+      <input type="checkbox" value="None" id="squaredThree" name="check" />
+      <label for ="squaredThree"><span class="nam">VeroModa</span></label>
+    </div>
+
+    <div class="squaredThree">
+      <input type="checkbox" value="None" id="squaredThree1" name="check" />
+      <label for ="squaredThree1"><span class="nam">ONLY</span></label>
+    </div>
+
+    <div class="squaredThree">
+      <input type="checkbox" value="None" id="squaredThree2" name="check" />
+      <label for ="squaredThree2"><span class="nam">Harpa</span></label>
+    </div>
+
+    <div class="squaredThree">
+      <input type="checkbox" value="None" id="squaredThree3" name="check" />
+      <label for ="squaredThree3"><span class="nam">FabAlley</span></label>
+    </div>
+
+    <!-- end .squaredThree -->
+  </section>
+<div class="color">
+<p>COLOR</p>
+
+  <section title=".squaredThree">
+    <!-- .squaredThree -->
+    <div class="squaredThree">
+      <input type="checkbox" value="None" id="squaredThree4" name="check" />
+      <label for ="squaredThree4"><span class="color_box"></span><span class="nam_colr">Red</span></label>
+    </div>
+
+    <div class="squaredThree">
+      <input type="checkbox" value="None" id="squaredThree5" name="check" />
+      <label for ="squaredThree5"><span class="color_box" style="background:pink;"></span><span class="nam_colr">Pink</span></label>
+    </div>
+
+    <div class="squaredThree">
+      <input type="checkbox" value="None" id="squaredThree6" name="check" />
+      <label for ="squaredThree6"><span class="color_box" style="background:blue;"></span><span class="nam_colr">Blue</span></label>
+    </div>
+
+    <div class="squaredThree">
+      <input type="checkbox" value="None" id="squaredThree7" name="check" />
+      <label for ="squaredThree7"><span class="color_box" style="background:brown;"></span><span class="nam_colr">Brown</span></label>
+    </div>
+
+    <!-- end .squaredThree -->
+  </section>
+</div>
+<div class="price_range">
+ <p>
+         <label for="price">Price range:</label>
+         <input type="text" id="price" 
+            style="border:0; color:#b9cd6d; font-weight:bold;width: 98%;left: 2px;position: relative;outline:none;margin-top:1em;">
+      </p>
+      <div id="slider-3"></div>
+</div>
             </div>
             <div class="col-md-9">
                 <div class="col-md-3 scnd_img">
                     <img src="image/img1.jpeg" class="img_element">
                     <p class="text-center data_name tbold">Nicky</p>
-                    <p class="text-center">price:1000.00</p>
+                    <p class="text-center">price:&#8377;1000.00</p>
                 </div>
                 <div class="col-md-3 scnd_img">
                     <img src="image/img1.jpeg" class="img_element">
                     <p class="text-center data_name tbold">Nicky</p>
-                    <p class="text-center">price:1000.00</p>
+                    <p class="text-center">price:&#8377;1000.00</p>
                 </div>
                 <div class="col-md-3 third_img">
                     <img src="image/img1.jpeg" class="img_element">
                     <p class="text-center data_name tbold">Nicky</p>
-                    <p class="text-center">price:1000.00</p>
+                    <p class="text-center">price:&#8377;1000.00</p>
                 </div>
                 <div class="col-md-3 scnd_img">
                     <img src="image/img1.jpeg" class="img_element">
@@ -166,23 +229,22 @@
             </div>
         </div>
         <!-- ---------------------end lst_foter------------------------------- -->
+
     </div>
-</body>
 <script type="text/javascript">
-// function addMega(){
-//   $(this).addClass("menu_active");
-//   }
-//   function removeMega(){
-//   $(this).removeClass("menu_active");
-//   }
-// var megaConfig = {    
-//      interval: 500,
-//      sensitivity: 4,
-//      over: addMega,
-//       timeout: 500,
-//      out: removeMega,
-// };
-// $("ul.main_menu li").find("div.menu_details").hoverIntent(megaConfig);
+	$( document ).ready(function(){
+//   Hide the border by commenting out the variable below
+    var $on = 'section';
+    $($on).css({
+      'background':'none',
+      'border':'none',
+      'box-shadow':'none'
+    });
+}); 
+</script>
+</body>
+<!-- mega menu drop down  -->
+<script type="text/javascript">
 $("ul.main_menu li").click(function mega_menu(e) {
     var current_menu = $(this).text().trim();
     $.each($("div.menu_details"), function(){
@@ -196,5 +258,20 @@ if (current_menu != $(this).parent().find(".tregular").text()){
     console.log($(this).text());
 });
 </script>
-
+<!-- slider function -->
+<script>
+         $(function() {
+            $( "#slider-3" ).slider({
+               range:true,
+               min: 0,
+               max: 500,
+               values: [ 35, 200 ],
+               slide: function( event, ui ) {
+                  $( "#price" ).val( "$" + ui.values[ 0 ] + " - $" + ui.values[ 1 ] );
+               }
+           });
+         $( "#price" ).val( "$" + $( "#slider-3" ).slider( "values", 0 ) +
+            " - $" + $( "#slider-3" ).slider( "values", 1 ) );
+         });
+      </script>
 </html>
