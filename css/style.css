@@ -25,7 +25,8 @@ a.serch {
 
 a:hover {
     text-decoration: none;
-    color: blue;
+    color: rgba(57, 57, 237, 0.9);
+    transition:1s;
 }
 
 
@@ -50,6 +51,9 @@ p.women {
     color: black;
     font-size: 2em;
     letter-spacing: 3px;
+    position: relative;
+    left:4em;
+    margin-top: 6px;
 }
 
 
@@ -78,6 +82,9 @@ img.img_element:hover{
 p.data_name {
     color: black;
     font-size: 1.3em;
+    position: relative;
+    margin-top: 18px;
+    left: -.5em;
 }
 
 .color {
@@ -182,8 +189,8 @@ h4.ftr_heading {}
 .menu1 {
     position: absolute;
     background-color: blue;
-    height: 20em;
-    width: 80.6em;
+    height: 21em;
+    width: 75.6em;
     display: none;
     top: -2em;
 }
@@ -211,9 +218,9 @@ h4.ftr_heading {}
     top: 0;
     left: 0;
     background: -webkit-linear-gradient(top, #222222 0%, #45484d 100%);
-    background: linear-gradient(to bottom, #222222 0%, #45484d 100%);
+    background: white;
     border-radius: 4px;
-    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4);
+    /* box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.4); */
 }
 
 .squaredThree label:after {
@@ -222,8 +229,8 @@ h4.ftr_heading {}
     height: 6px;
     position: absolute;
     top: 4px;
-    left: 5px;
-    border: 3px solid #fcfff4;
+    left: 4px;
+    border: 3px solid black;
     border-top: none;
     border-right: none;
     background: transparent;
@@ -324,6 +331,13 @@ span.view_cont {
     left: 1.3em;
     top: 6px;
   }
+.hdr_img:hover .view_butn{
+  visibility: visible;
+  opacity: 1;
+  transition: 2s;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
 .scnd_img:hover .view_butn{
   visibility: visible;
   opacity: 1;
@@ -365,3 +379,104 @@ span.view_cont {
 }
 
 
+.fixed1{
+  position: fixed;
+  bottom:0;
+}
+
+.ui-slider-range.ui-widget-header.ui-corner-all{
+    background: rgba(57, 57, 237, 0.9);
+}
+
+a.ui-slider-handle.ui-state-default.ui-corner-all {
+    outline: none;
+}
+
+
+
+/*-------------------------------------------------------------*/
+
+a.view_button{
+
+    color:white;
+}
+
+a.social_icon{
+    color: #B7B7B7;
+}
+
+a.social_icon:hover{
+    color: white;
+}
+
+input[type="txt"]{
+    color:white;
+    font-style: tregular;
+}
+
+
+a:focus{
+    color: blue;
+    text-decoration: none;
+}
+
+.overlay1 {
+    position:absolute;
+    width:100%;
+    height:102.3%;
+    top:0;
+    left:0;
+    z-index:2;
+    opacity:0;
+    -webkit-transition: opacity 0.4s ease-in-out;
+    -moz-transition: opacity 0.4s ease-in-out;
+    -o-transition: opacity 0.4s ease-in-out;
+    -ms-transition: opacity 0.4s ease-in-out;
+    transition: opacity 0.4s ease-in-out;
+    left: -.6em;
+}
+
+.hdr_img:hover > .overlay1 {
+    opacity:1;
+    width:240px;
+    height:21em;
+    padding:5px;
+    display:block;
+    background:rgba(255, 255, 255, 0.4);
+    left:-2em;
+}
+
+.view_butn1{
+        left: 3.3em;
+    top: 8em;
+}
+
+p.price1{
+        position: relative;
+    left: -10px;
+}
+
+p.women_tab{
+        letter-spacing: 1px;
+    color: #3E3C3C;
+    /*font-weight: bold;*/
+    font-size: 1.5em;
+}
+
+a.women_tab_cont{
+        font-size: 1.2em;
+    color: #524D4D;
+}
+
+a.women_tab_cont:hover{
+    color:blue;
+}
+
+i.fa.fa-chevron-down {
+    margin-left: 7px;
+}
+
+ul.main_menu {
+    position: relative;
+    left: 5em;
+}

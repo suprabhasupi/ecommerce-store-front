@@ -1,0 +1,32 @@
+{
+    "product1": {
+        "Name": "coat",
+        "Price": 1000000,
+        "img": ["image_link_1", "image_link_2", "image_link_3"]
+    },
+    "product2": {
+        "Name": "coat",
+        "Price": 120,
+        "img": ["image_link_1", "image_link_2", "image_link_3"]
+    },
+    "product3": {
+        "Name": "coat",
+        "Price": 551200,
+        "img": ["image_link_1", "image_link_2", "image_link_3"]
+    },
+    "product4": {
+        "Name": "coat",
+        "Price": 156200,
+        "img": ["image_link_1", "image_link_2", "image_link_3"]
+    },
+    "product5": {
+        "Name": "coat",
+        "Price": 126700,
+        "img": ["image_link_1", "image_link_2", "image_link_3"]
+    },
+    "product6": {
+        "Name": "coat",
+        "Price": 120023,
+        "img": ["image_link_1", "image_link_2", "image_link_3"]
+    }
+}
