@@ -189,7 +189,7 @@ h4.ftr_heading {}
 
 .menu1 {
     position: absolute;
-    background-color: blue;
+    background-color: white;
     height: 21em;
     width: 75.6em;
     display: none;
@@ -568,4 +568,8 @@ p.text-center.data_name.tbold.img_content{
         position: relative;
     top: 3em;
     left: 1.5em;
+ }
+
+ .modal-backdrop.in{
+    opacity: 0.5;
  }
