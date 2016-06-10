@@ -379,6 +379,10 @@ span.view_cont {
   position: fixed;
   top:0;
 }
+.relative{
+    position: absolute;
+    top:651px;
+}
 .footer_filter{
     position: relative;
     bottom: 100px;
