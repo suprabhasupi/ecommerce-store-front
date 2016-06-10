@@ -607,12 +607,12 @@ button {
 
 .button.styl-material:focus {
     outline: none;
-    background: #3535d5;
+    background: blue;
 }
 
 
 .button.styl-material:hover{
-    background-color: #3535d5;
+    background-color: #1818d5;
 }
 
 .ripple-obj{
@@ -623,7 +623,7 @@ button {
     left: 0;
     z-index: 0;
     width: 100%;
-    fill: #1c9cd1;
+    fill: #0202b0;
 }
 .ripple-obj1{
     height: 100%;
@@ -638,4 +638,9 @@ button {
 
 button.can_but{
     background-color: #666666 !important;
+}
+
+button#js-ripple-btn1{
+    position: relative;
+    left:-1em;
 }
