@@ -184,7 +184,7 @@ h4.ftr_heading {}
 
 .menu_active .menu1 {
     top: .6em;
-    display: block;
+    opacity: 1;
 }
 
 .menu1 {
@@ -192,9 +192,10 @@ h4.ftr_heading {}
     background-color: white;
     height: 21em;
     width: 75.6em;
-    display: none;
+    opacity: 0;
     top: -2em;
-    z-index: 9999;
+    /*z-index: 99;*/
+    transition: top,opacity 1s;
 }
 
 .filtr_box_dummy {
