@@ -301,6 +301,7 @@ p.data_nam1 {
 
 img.notsale {
     margin-top: 2em;
+    background: white;
 }
 
 span.sale_cont {
@@ -447,7 +448,7 @@ a:focus{
 }
 
 .view_butn1{
-        left: 3.3em;
+        left: 4.8em;
     top: 8em;
 }
 
@@ -479,4 +480,29 @@ i.fa.fa-chevron-down {
 ul.main_menu {
     position: relative;
     left: 5em;
+}
+
+.overlay1.boot_img:hover{
+           left: -10px;
+}
+
+p.text-center.data_name.tbold.img_content{
+        margin-top: 1.7em;
+}
+.img_last{
+        margin-left: -23%;
+             position: relative; 
+     left: -1.3em; 
+
+}
+.img_last_one{
+     position: relative; 
+     left: -1.3em; 
+}
+
+.cont_menu{
+    margin-left: -3em;
+}
+.cont_menu1{
+    margin-left: -5.5em;
 }
