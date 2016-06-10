@@ -35,7 +35,7 @@
             <div class="col-md-1"></div>
             <div class="col-md-9">
                 <ul class="main_menu">
-                    <li><a href="#" class="tregular menu_drop"> Women<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
+                    <li><a href="#" class="tregular menu_drop">Women<i class="fa fa-chevron-down" aria-hidden="true"></i></a>
                         <div class="menu_details row col-md-12 col-sm-12 col-xs-12 tregular">
                             <div class="menu1 col-md-12" style="background:red;">
                                 <div class="col-md-3 col-sm-3 col-xs-3">
@@ -522,18 +522,24 @@ $(window).scroll(function() {
 });
 </script>
 <script type="text/javascript">
+var previous_menu = "";
 $("ul.main_menu li").click(function mega_menu(e) {
     var current_menu = $(this).text().trim();
     $.each($("div.menu_details"), function() {
-            if (current_menu != $(this).parent().find(".menu_drop").text()) {
-                // console.log("current_menu => " + current_menu);
-                // console.log("this text => " + $(this).parent().find(".tregular").text());
-                $(this).removeClass("menu_active");
-            }
-        })
+            // if (current_menu != $(this).parent().find(".menu_drop").text()) {
+            //     console.log("current_menu => " + current_menu);
+            //     console.log("this text => " + $(this).parent().find(".tregular").text());
+            //     $(this).removeClass("menu_active");
+            // }
+            if(current_menu != previous_menu)
+                {
+                    $(this).removeClass("menu_active");
+                }
+        });
+    previous_menu = current_menu;
         // $("div.menu_details").removeClass("menu_active");
     $(this).find("div.menu_details").toggleClass("menu_active");
-    console.log($(this).text());
+    // console.log($(this).text());
 });
 </script>
 <!-- slider function -->
