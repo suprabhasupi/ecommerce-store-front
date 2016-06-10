@@ -193,12 +193,17 @@ h4.ftr_heading {}
     width: 75.6em;
     display: none;
     top: -2em;
+    z-index: 9999;
 }
 
 .filtr_box_dummy {
     border: 1px solid none;
     height: 4em;
     background: rgb(51, 49, 49);
+}
+.data_clas{
+    position: relative;
+    z-index: 0;
 }
 
 
