@@ -1,32 +1,98 @@
 {
     "product1": {
-        "Name": "coat",
-        "Price": 1000000,
-        "img": ["image_link_1", "image_link_2", "image_link_3"]
+        "Name": "NICKY",
+        "Price": 6000.00,
+        "img": ["image_link_1"]
     },
     "product2": {
-        "Name": "coat",
-        "Price": 120,
-        "img": ["image_link_1", "image_link_2", "image_link_3"]
+        "Name": "GALA",
+        "Price": 9000.00,
+        "img": ["image_link_1"]
     },
     "product3": {
-        "Name": "coat",
-        "Price": 551200,
-        "img": ["image_link_1", "image_link_2", "image_link_3"]
+        "Name": "TAMI",
+        "Price": 10000.00,
+        "img": ["image_link_1"]
     },
     "product4": {
-        "Name": "coat",
-        "Price": 156200,
-        "img": ["image_link_1", "image_link_2", "image_link_3"]
+        "Name": "WINONA",
+        "Price": 2000.00,
+        "img": ["image_link_1"]
     },
     "product5": {
-        "Name": "coat",
-        "Price": 126700,
-        "img": ["image_link_1", "image_link_2", "image_link_3"]
+        "Name": "CINDER",
+        "Price": 3500.00,
+        "img": ["image_link_1"]
     },
     "product6": {
-        "Name": "coat",
-        "Price": 120023,
-        "img": ["image_link_1", "image_link_2", "image_link_3"]
+        "Name": "JUANA",
+        "Price": 12000.00,
+        "img": ["image_link_1"]
+    },
+     "product7": {
+        "Name": "SUNSET",
+        "Price": 4000.00,
+        "img": ["image_link_1"]
+    },
+     "product8": {
+        "Name": "MAVERICK",
+        "Price": 8000.00,
+        "img": ["image_link_1"]
+    },
+    "product9": {
+        "Name": "GRETA",
+        "Price": 3500.00,
+        "img": ["image_link_1"]
+    },
+    "product10": {
+        "Name": "LEXA",
+        "Price": 22000.00,
+        "img": ["image_link_1"]
+    },
+     "product11": {
+        "Name": "INVADER",
+        "Price": 12000.00,
+        "img": ["image_link_1"]
+    },
+    "product12": {
+        "Name": "FLINT",
+        "Price": 1900.00,
+        "img": ["image_link_1"]
+    },
+     "product13": {
+        "Name": "CUSTOM",
+        "Price": 8000.00,
+        "img": ["image_link_1"]
+    },
+    "product14": {
+        "Name": "SQUIRE",
+        "Price": 11000.00,
+        "img": ["image_link_1"]
+    },
+    "product15": {
+        "Name": "80 SKIS",
+        "Price": 2600.00,
+        "img": ["image_link_1"]
+    },
+     "product16": {
+        "Name": "AXIAL",
+        "Price": 8000.00,
+        "img": ["image_link_1"]
+    },
+     "product17": {
+        "Name": "ANTLERFLY",
+        "Price": 6000.00,
+        "img": ["image_link_1"]
+    },
+     "product18": {
+        "Name": "AMBUSH",
+        "Price": 2500.00,
+        "img": ["image_link_1"]
+    },
+     "product19": {
+        "Name": "AMY",
+        "Price": 4500.00,
+        "img": ["image_link_1"]
     }
+
 }
