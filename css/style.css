@@ -573,3 +573,68 @@ p.text-center.data_name.tbold.img_content{
  .modal-backdrop.in{
     opacity: 0.5;
  }
+
+
+/*------------- BUTTONS -----------------*/
+
+button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: none;
+    box-shadow: inset 1px 1px 1px rgba(255, 255, 255, 0.3), 0 3px 3px rgba(0, 0, 0, 0.15), 0 3px 2px -2px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-size: 16px;
+    text-shadow: 0 -0.5px 1px rgba(0, 0, 0, 0.15);
+}
+
+.button {
+    padding: 8px 16px;
+    border: 2px solid none;
+    /*border-radius: 5px;*/
+    margin: 0;
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+
+.button.styl-material {
+    -webkit-transition: 200ms background cubic-bezier(0.4, 0, 0.2, 1);
+    transition: 200ms background cubic-bezier(0.5, 0, 0.4, 1);
+    background: blue;
+}
+
+.button.styl-material:focus {
+    outline: none;
+    background: #3535d5;
+}
+
+
+.button.styl-material:hover{
+    background-color: #3535d5;
+}
+
+.ripple-obj{
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    fill: #1c9cd1;
+}
+.ripple-obj1{
+    height: 100%;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    width: 100%;
+    fill: #7c7d7d;
+}
+
+button.can_but{
+    background-color: #666666 !important;
+}

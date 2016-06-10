@@ -12,6 +12,7 @@
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      <script src="js/moment.min.js"></script>
 </head>
 
 <body>
@@ -42,8 +43,35 @@
          </div>
         </div>
         <div class="modal-footer">
-        <button type="button" class="btn btn-default">ADD TO CART</button>
-          <button type="button" class="btn btn-default">BUY NOW</button>
+
+         <div style="height: 0; width: 0; position: absolute; visibility: hidden;" aria-hidden="true">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" focusable="false">
+                <symbol id="ripply-scott" viewBox="0 0 100 100">
+                    <circle id="ripple-shape" cx="1" cy="1" r=".7" />
+                </symbol>
+                <symbol id="ripply-scott1" viewBox="0 0 100 100">
+                    <circle id="ripple-shape" cx="1" cy="1" r=".7" />
+                </symbol>
+            </svg>
+        </div>
+        <div class="content">
+            <!-- button component -->
+            
+            <button id="js-ripple-btn1" class="button styl-material can_but tregular">
+                 ADD TO CART
+                <svg class="ripple-obj1" id="js-ripple1">
+                    <use height="100" width="100" xlink:href="#ripply-scott1" class="js-ripple1"></use>
+                </svg>
+            </button>
+            <button id="js-ripple-btn" class="button styl-material tregular">
+                BUY NOW
+                <svg class="ripple-obj" id="js-ripple">
+                    <use height="100" width="100" xlink:href="#ripply-scott" class="js-ripple"></use>
+                </svg>
+            </button>
+        </div>
+        <!-- <button type="button" class="btn btn-default">ADD TO CART</button> -->
+          <!-- <button type="button" class="btn btn-default">BUY NOW</button> -->
         </div>
       </div>
       
@@ -584,7 +612,7 @@ $("ul.main_menu li").click(function mega_menu(e) {
 });
 </script>
 
-<!-- slider function -->
+<!-- price slider function -->
 <script>
 $(function() {
     $("#slider-3").slider({
@@ -622,6 +650,8 @@ $(function() {
 
 });
 </script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.17.0/TweenMax.min.js"></script>
+<script type="text/javascript" src="js/ripple-config.js"></script>
    </body>
 
 </html>
