@@ -16,6 +16,39 @@
 
 <body>
     <div class="container col-md-12 col-sm-12 col-xs-12 full_body">
+
+     <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h2 class="modal-title data_name tbold">Data name</h2>
+        </div>
+        <div class="modal-body">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+        <div class="col-md-6 col-sm-6 col-xs-6">
+         <img src="image/img1.jpeg" class="img_element">
+         </div>
+         <div class="col-md-6 col-sm-6 col-xs-6 rit_sid_data">
+         <p class="price tbold">Rs.1000</p>
+         <p class="tregular">Check delivery, payment options and charges at your location</p>
+         <input type="text" name="pin" class="check_input">
+         <button class="check tregular">CHECK</button>
+         <p class="tlight expctd_dlvr">Expect delivery in 3-4 days.</p>
+         </div>
+         </div>
+        </div>
+        <div class="modal-footer">
+        <button type="button" class="btn btn-default">ADD TO CART</button>
+          <button type="button" class="btn btn-default">BUY NOW</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
         <div class="col-md-1 col-sm-1 col-xs-1"></div>
         <!-- -----------------main header------------------------------ -->
         <div class="row col-md-12 col-sm-12 col-xs-12 mainheader">
@@ -313,38 +346,7 @@
                 </div>
 
 
- <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h2 class="modal-title data_name tbold">Data name</h2>
-        </div>
-        <div class="modal-body">
-        <div class="col-md-12 col-sm-12 col-xs-12">
-        <div class="col-md-6 col-sm-6 col-xs-6">
-         <img src="image/img1.jpeg" class="img_element">
-         </div>
-         <div class="col-md-6 col-sm-6 col-xs-6 rit_sid_data">
-         <p class="price tbold">Rs.1000</p>
-         <p class="tregular">Check delivery, payment options and charges at your location</p>
-         <input type="text" name="pin" class="check_input">
-         <button class="check tregular">CHECK</button>
-         <p class="tlight expctd_dlvr">Expect delivery in 3-4 days.</p>
-         </div>
-         </div>
-        </div>
-        <div class="modal-footer">
-        <button type="button" class="btn btn-default">ADD TO CART</button>
-          <button type="button" class="btn btn-default">BUY NOW</button>
-        </div>
-      </div>
-      
-    </div>
-  </div>
+
 
 
                 <div class="col-md-3 col-sm-12 col-xs-12 scnd_img">
@@ -478,6 +480,8 @@
         </div>
         <!-- ---------------------end lst_foter------------------------------- -->
     </div>
+ 
+
     <script type="text/javascript">
     $(document).ready(function() {
         //   Hide the border by commenting out the variable below
@@ -489,7 +493,7 @@
         });
     });
     </script>
-</body>
+
 <!-- mega menu drop down  -->
 <script type="text/javascript">
 $(window).scroll(function() {
@@ -560,5 +564,6 @@ $(".view_butn").on('click', function() {
     });
 });
 </script>
+   </body>
 
 </html>
