@@ -248,7 +248,7 @@
         <div class="row col-md-12 col-sm-12 col-xs-12">
             <div class="col-md-2 filtr_box_dummy"></div>
             <div class="col-md-8">
-                <p class="text-center women tregular">WOMEN</p>
+                <p class="text-center women tregular">MEN</p>
             </div>
             <div class="col-md-1"></div>
         </div>
@@ -348,7 +348,7 @@
                     <div class="overlay">
                         <div class="view_butn" data-element = "product2"><a href="#" class="view_button"><span class="view_cont">VIEW</span></a></div>
                     </div>
-                    <img src="image/img2.jpeg" class="img_element">
+                    <img src="image/img9.jpeg" class="img_element">
                     <p class="text-center data_name tbold">Gala</p>
                     <p class="text-center">price:<strike>&#8377;1000.00</strike>&nbsp; &#8377;800.00</p>
                 </div>
@@ -497,12 +497,12 @@ $(window).scroll(function() {
     if (scroll_pos >= 176) {
         $(".filtr_box").addClass("fixed");
         $(".data_clas").css("margin-left", "16.666666%");
-        // $(".filtr_box").removeClass("footer_filter");	
+        // $(".filtr_box").removeClass("footer_filter");    
     }
-    // 		else if(scroll_pos >= 808){
-    // 			$(".filtr_box").removeClass("fixed");
-    // $(".filtr_box").addClass("footer_filter");	
-    // 		}
+    //      else if(scroll_pos >= 808){
+    //          $(".filtr_box").removeClass("fixed");
+    // $(".filtr_box").addClass("footer_filter");   
+    //      }
     else {
         $(".filtr_box").removeClass("fixed");
         $(".data_clas").css("margin-left", "0");
@@ -555,9 +555,9 @@ $(function() {
         
         $.ajax({url: "http://suprabha.me/js/element.json", success: function(result){
             alert("product ="+result[product].Name);
-        $(".modal-title").text(result[product].Name);
-        // $(".modal-title").text(result[product].Name+" "+result[product].Price+" "+result[product].img);
+         alert(result[product].Name+" "+result[product].Price+" "+result[product].img);
     }});
+
     });
 </script>
 
