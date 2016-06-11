@@ -1,5 +1,6 @@
 .full_body {
     padding: 0;
+    overflow-x: hidden;
 }
 
 .mainheader {
@@ -11,6 +12,8 @@
 
 h1.titl {
     color: white;
+    position: relative;
+    left: -3em;
 }
 
 .heder_icons {
@@ -42,6 +45,7 @@ a.acount {
     top: -.7em;
     text-decoration: none;
     color: white;
+    left: 5em;
 }
 
 
@@ -52,7 +56,7 @@ p.women {
     font-size: 2em;
     letter-spacing: 3px;
     position: relative;
-    left:4em;
+    /*left:4em;*/
     margin-top: 6px;
 }
 
@@ -106,7 +110,7 @@ div#slider-3 {
 /*----------------------footer-------------------------------*/
 
 .footer_box {
-    border: 1px solid gray;
+    /*border: 1px solid gray;*/
     margin-left: 0;
     background: rgb(51, 49, 49);
     color: white;
@@ -119,6 +123,8 @@ div#slider-3 {
     background: rgb(51, 49, 49);
     color: white;
     padding: 14px 0px;
+    border-color: transparent;
+    border-top-color: gray;
 }
 
 .social_icon {
@@ -185,6 +191,7 @@ h4.ftr_heading {}
 .menu_active .menu1 {
     top: .6em;
     display: block;
+    left:20px;
 }
 
 .menu1 {
@@ -196,6 +203,12 @@ h4.ftr_heading {}
     top: -2em;
     z-index: 9999;
     transition: top 1s;
+}
+.sub_menu{
+    padding-top: 3em;
+}
+.modal-content{
+    min-height: 500px;
 }
 
 .filtr_box_dummy {
@@ -261,6 +274,7 @@ h4.ftr_heading {}
 span.nam {
     position: relative;
     left: 2em;
+    font-weight: 100;
 }
 
 span.color_box {
@@ -277,6 +291,7 @@ span.nam_colr {
     position: relative;
     left: 3.3em;
     top: -1.3em;
+    font-weight: 100;
 }
 
 img.img_menu {
@@ -293,7 +308,8 @@ p.data_nam1 {
 }
 
 .img_top {
-    margin-top: 2em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .sale_box {
@@ -522,6 +538,7 @@ p.text-center.data_name.tbold.img_content{
 
 .modal-footer{
     border-color: transparent;
+    margin-top: 19em;
 }
 
 .modal-header{
@@ -573,6 +590,10 @@ p.text-center.data_name.tbold.img_content{
 
  .modal-backdrop.in{
     opacity: 0.5;
+ }
+
+ input[type="txt"]{
+    font-family: tregular;
  }
 
 
@@ -643,4 +664,38 @@ button.can_but{
 button#js-ripple-btn1{
     position: relative;
     left:-1em;
+}
+
+/*---------------------------------------------*/
+
+
+input[type="text"]{
+    color: white;
+    font-family: tregular;
+}
+
+span.serch{
+    position: relative;
+    left: -9.5em;
+}
+
+i.fa.fa-search {
+    color: white;
+}
+
+i.fa.fa-shopping-cart.fa-2x{
+
+    position: relative;
+    top: -1.1em;
+    right: -14em;
+}
+
+span#basic-addon2:hover {
+background-color: #3448d2;
+border-color: #3448d2;
+}
+
+input[type="texts"]{
+    color: black;
+    font-family: tregular;
 }

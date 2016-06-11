@@ -2,97 +2,97 @@
     "product1": {
         "Name": "NICKY",
         "Price": 6000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img6.jpeg"
     },
     "product2": {
         "Name": "GALA",
-        "Price": 9000.00,
-        "img": ["image_link_1"]
+        "Price": 6500.00,
+        "img": "http://suprabha.me/image/img2.jpeg"
     },
     "product3": {
         "Name": "TAMI",
         "Price": 10000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img1.jpeg"
     },
     "product4": {
         "Name": "WINONA",
-        "Price": 2000.00,
-        "img": ["image_link_1"]
+        "Price": 800.00,
+        "img": "http://suprabha.me/image/img3.png"
     },
     "product5": {
         "Name": "CINDER",
         "Price": 3500.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img16.jpeg"
     },
     "product6": {
         "Name": "JUANA",
         "Price": 12000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img15.jpeg"
     },
      "product7": {
         "Name": "SUNSET",
-        "Price": 4000.00,
-        "img": ["image_link_1"]
+        "Price": 2400.00,
+        "img": "http://suprabha.me/image/img7.jpeg"
     },
      "product8": {
         "Name": "MAVERICK",
-        "Price": 8000.00,
-        "img": ["image_link_1"]
+        "Price": 7400.00,
+        "img": "http://suprabha.me/image/img17.jpeg"
     },
     "product9": {
         "Name": "GRETA",
         "Price": 3500.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img4.jpeg"
     },
     "product10": {
         "Name": "LEXA",
         "Price": 22000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img5.jpeg"
     },
      "product11": {
         "Name": "INVADER",
         "Price": 12000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/boot1.jpeg"
     },
     "product12": {
         "Name": "FLINT",
         "Price": 1900.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img9.jpeg"
     },
      "product13": {
         "Name": "CUSTOM",
         "Price": 8000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img8.jpeg"
     },
     "product14": {
         "Name": "SQUIRE",
         "Price": 11000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img18.png"
     },
     "product15": {
         "Name": "80 SKIS",
         "Price": 2600.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img19.jpeg"
     },
      "product16": {
         "Name": "AXIAL",
         "Price": 8000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img20.png"
     },
      "product17": {
         "Name": "ANTLERFLY",
         "Price": 6000.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img10.jpeg"
     },
      "product18": {
         "Name": "AMBUSH",
         "Price": 2500.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img13.jpeg"
     },
      "product19": {
         "Name": "AMY",
         "Price": 4500.00,
-        "img": ["image_link_1"]
+        "img": "http://suprabha.me/image/img14.jpeg"
     }
 
 }
