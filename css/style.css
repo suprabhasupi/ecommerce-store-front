@@ -191,7 +191,11 @@ h4.ftr_heading {}
 .menu_active .menu1 {
     top: .6em;
     display: block;
+<<<<<<< HEAD
     left:20px;
+=======
+    opacity: 1;
+>>>>>>> 6fa01ad403eaccb31f74e3e05aa52f4f1e6b57d9
 }
 
 .menu1 {
@@ -200,9 +204,10 @@ h4.ftr_heading {}
     height: 21em;
     width: 75.6em;
     display: none;
+    opacity: 0;
     top: -2em;
-    z-index: 9999;
-    transition: top 1s;
+    z-index: 9;
+    transition: opacity 1s;
 }
 .sub_menu{
     padding-top: 3em;
